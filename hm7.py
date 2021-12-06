@@ -1,0 +1,5 @@
+word1 = str(input('Insert the whole phrase: '))
+word2 = str(input('Insert word to change: '))
+word3 = str(input('Insert new word instead of changed: '))
+print(word1.replace(word2, word3))
+print(word1.count(word2))
